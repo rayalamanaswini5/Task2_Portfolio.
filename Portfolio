@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="box1">
+            <div>
+                <h2 style="margin-left:89px; font-size: 40px;">Portfolio.</h2>
+            </div>
+            <div class="heading">
+                <a href="#box2">About</a>
+                <a href="#box3">Skills</a>
+                <a href="#box4">Projects</a>
+                <a href="#box5">Resume</a>
+                <a href="#box6">Contact Me</a>
+            </div>
+        </div>
+        <div id="box2">
+            <div class="intro">
+                <div class="intro1">
+                    <h1>Hi , I'm Manaswini</h1>
+                    <h2 style="color: rgb(41, 118, 206);">Frontend developer</h3>
+                    <p >A Passionate Frontend software developer having an skills in building 
+                        web application development with HTML /CSS/ JAVASCRIPT and some cool libraries and framework.
+                        Develop highly interactive Front end for your web applications.</p>
+                </div>
+                <div class="intro2">
+                    <i class="fa-brands fa-square-github" style="color: rgb(133, 128, 128);"></i>
+                    <i class="fa-brands fa-linkedin" style="color: rgb(45, 132, 158);"></i>
+                    <i class="fa-brands fa-facebook" style="color: rgb(42, 48, 206);"></i>
+                    <i class="fa-brands fa-square-twitter" style="color: rgb(33, 109, 180);"></i>       
+                </div>
+                <div class="intro3">
+                    <button type="button">CONTACT ME</button>
+                    <button type="button">SEE MY RESUME</button>
+                </div> 
+            </div>
+            <div >
+                <img src="r8.jpg">
+            </div>
+        </div>
+        <div id="box3">
+            <img src="r7.jpg">
+            <div class="skills">
+                <h1>Proficiency</h1>
+                <label  for="range">HTML</label><br>
+                <input type="range" id="range" name="range" min="0" value="90" max="100"><br><br>
+                <label  for="range">CSS</label><br>
+                <input type="range" id="range" name="range" min="0" value="90" max="100"><br><br>
+                <label  for="range">JAVASCRIPT</label><br>
+                <input type="range" id="range" name="range" min="0" value="50" max="100"><br><br>
+                <label  for="range">PYTHON</label><br>
+                <input type="range" id="range" name="range" min="0" value="70" max="100">
+            </div>
+        </div>
+        <div id="box4">
+            <div class="proj">
+                
+                    <h1 style="margin: 0;padding: 0;">Pojects</h1>
+                    <h3 style="color: rgb(41, 118, 206);">Web Application Development</h3>
+                    <p style="line-height: 25px;">This programme offers a variety of alternatives where you can select the cuisine and quantity 
+                    required for groceries  to be delivered to your door as well as providing you with cooking videos 
+                    and step-by-step instructions for the dish.</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>SQL</li>
+                    </ul>
+               
+            </div>
+
+            <div class="proj1">
+                <img src="r1.jpg">
+                <img src="r2.jpg">
+                <img src="r3.jpg">
+                <img src="r4.jpg">
+                <img src="r5.jpg">
+                <img src="r6.jpg">
+            </div>
+        </div>
+        <div id="box5">
+            <h1 style="margin: 0; padding: 0; margin-left: 7%;">Resume</h1>
+            <div class="res1">
+                <button type="button"><a style="color: rgb(41, 118, 206);" href="https://drive.google.com/file/d/1hgF-VnLzQHFibcvifyK69gkW8hKBDxkQ/view?usp=sharing">RESUME</a></button>
+                
+            </div>
+        </div>
+        <div id="box6">
+            <h1 style="margin: 0; padding: 0; margin-left: 7%;">Contact Me</h1>
+            <div class="contact">
+                <p style="line-height: 25px; font-size: 19px;">I enjoy working with dedicated creatives from Website that make the world beautiful.</p>
+                <p style=" font-size: 18px;">We can do so much together. <strong style="font-size: 25px; color: rgb(41, 118, 206);">LET'S TALK</strong></p>
+                <h5 style="font-size: 15px;">Mail :<a style="color: rgb(41, 118, 206);" href="20211a05p1@bvrit.ac.in"> 20211a05p1@bvrit.ac.in</a></h5>
+                <h5 style="font-size: 15px;">Contact   : +91 9182876869</h5>
+            </div>
+        </div>
+        <div id="box7">
+            <p>Copyright <i class="fa-regular fa-copyright"></i>  2023 Manaswini</p>
+            <p >All rights reserved.This website or any portion thereof may not be reproduced 
+                or used in any manner whatsoever without the express written premmission of the 
+                creater except for the use of brief quatations in website review.</p>
+        </div>
+    </div>
+        
+</body>
+</html>
+
+<!--CSS-->
+
+body{
+    background-color: black;
+}
+.container1 {
+    border:1px solid black;
+    height:400vh;
+}
+
+.container1 .box1{
+    border: 1px solid black;
+    height:10vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.box1{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    
+}
+
+
+.box1 .heading{
+    margin: 20px;
+    font-size: 22px;
+}
+.heading a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+
+.heading a:hover{
+    color:rgb(34, 113, 203);
+}
+
+#box2 {
+    border: 1px solid black;
+    margin-top: 6%;
+    display: flex;
+    height:60vh;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box2 .intro{
+    border:1px solid black;
+    margin-top: 4%;
+    height:50vh;
+    width:50%;
+    margin-left: 7%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box2 img{
+    width: 310px;
+    height: 310px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+#box2 .intro1{
+    font-size: 15px;
+    width:85%;
+}
+.intro1 h1,h2{
+    margin: 5px;
+    padding: 0;
+}
+.intro1 p{
+    line-height: 25px;
+    font-size: 15px;
+    width: 500px;
+}
+#box2 .intro2{
+    margin-top: 15px;
+    font-size: 23px;
+}
+.intro2 i{
+    margin: 5px;
+}
+#box2 .intro3{
+    height: 28px;
+    margin-top: 25px;
+}
+button{
+    margin-top: 10px;
+    margin-right: 17px;
+    border-radius: 3px;
+    text-align: center;
+    height:27px;
+    background-color: black;
+    color:rgb(52, 85, 192);
+}
+
+#box3{
+    border: 1px solid black;
+    margin-top: 10%;
+    height:57vh;
+    color: white;
+}
+#box3 .skills{
+    border:1px solid black;
+    float: right;
+    margin-left: 6px;
+    height:50vh;
+    width:40%;
+    margin-top: 2%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box3 img{
+    width: 470px;
+    margin-left: 7%;
+    height: 350px;
+    transform: none;
+    transition: none;
+}
+.skills h1{
+    margin: 5px;
+    padding-bottom: 40px;
+}
+.skills input{
+    width:60%;
+}
+.skills label{
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+#box4{
+    border: 1px solid black;
+    display: flex;
+    margin-top: 10%;
+    height:80vh;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box4 .proj{
+    border:1px solid black;
+    margin: 80px;
+    background-color: rgb(24, 23, 23);
+    margin-top: 8%;
+    height:45vh;
+    width:40%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 3px 3px 10px 1px  white;
+}
+ul{
+   display: flex;
+}
+ul li{
+    margin: 10px;
+    padding: 5px;
+}
+#box4 .proj1{
+    border:1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(24, 23, 23);
+    margin-top: 4%;
+    margin-right: 30px;
+    height:60vh;
+    width: 43%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box4 .proj1 img{
+    margin: 2px;
+    width: 32.3%;
+    height: 49%;
+    border-radius: 10px;
+}
+#box4 .proj1 img:hover{
+    transform: scale(3);
+    transition: 3s transform;
+}
+#box5{
+    border: 1px solid black;
+    height:30vh;
+    margin-top: 8%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box5 .res1{
+    text-align: center;
+    margin-top: 5%;
+}
+.res1 button{
+    font-size: 30px;
+    width: 20%;
+    height: 15vh;
+    box-shadow: 3px 3px 10px 1px  white;
+
+}
+#box6{
+    border: 1px solid black;
+    height:55vh;
+    margin-top: 10%;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#box6 .contact{
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 33%;
+    height: 40vh;
+    width: 40%;
+}
+#box7{
+    border: 1px solid black;
+    height:30vh;
+    color: white;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+#box7 p{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 25%;
+    width: 50%;
+}
